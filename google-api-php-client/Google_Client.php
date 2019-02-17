@@ -44,7 +44,7 @@ require_once('service/Google_MediaFileUpload.php');
 
 /**
  * The Google API Client
- * http://code.google.com/p/google-api-php-client/
+ * https://github.com/googleapis/google-api-php-client
  *
  * @author Chris Chabot <chabotc@google.com>
  * @author Chirag Shah <chirags@google.com>
