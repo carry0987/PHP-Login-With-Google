@@ -58,7 +58,7 @@ class Google_P12Signer extends Google_Signer {
   }
 
   function sign($data) {
-    if (version_compare(PHP_VERSION, '5.3.0') < 0) {
+    if(version_compare(PHP_VERSION, '5.3.0') < 0) {
       throw new Google_AuthException(
         "PHP 5.3.0 or higher is required to use service accounts.");
     }
